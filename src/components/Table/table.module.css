@@ -1,0 +1,145 @@
+.tableWrapper {
+       margin-top: 20px;
+       border-top: 2px solid rgb(202, 202, 255);
+}
+
+.titleColumnList {
+       list-style: none;
+       display: flex;
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       color: blue;
+       border-bottom: 3px solid blue;
+}
+
+
+.titleColumnList li:first-child {
+       width: 40%;
+       border-right: 2px solid rgb(202, 202, 255);
+       border-left: 2px solid rgb(202, 202, 255);
+}
+
+.titleColumnList li:nth-child(2) {
+       width: 10%;
+       border-right: 2px solid rgb(202, 202, 255);
+}
+
+.titleColumnList li:nth-child(3) {
+       width: 50%;
+       border-right: 2px solid rgb(202, 202, 255);
+}
+
+.titleColumnList li:nth-child(4) {
+       width: 50%;
+       border-right: 2px solid rgb(202, 202, 255);
+}
+
+.titleColumnElem {
+       padding: 10px 0;
+       display: flex;
+       justify-content: center;
+       gap: 10px
+}
+
+.addIcon {
+       width: 20px;
+}
+
+.removeIcon {
+       width: 25px;
+}
+
+.titleRowList {
+       width: 100%;
+       list-style: none;
+       display: flex;
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       color: blue;
+}
+
+.titleRowList li:nth-child(1) {
+       width: 40%;
+       border-right: 2px solid rgb(202, 202, 255);
+       border-left: 2px solid rgb(202, 202, 255);
+       border-bottom: 2px solid rgb(202, 202, 255);
+
+}
+
+.titleRowList li:nth-child(2) {
+       width: 10%;
+}
+
+.titleRowList li:nth-child(3),
+.titleRowList li:nth-child(4) {
+       width: 50%;
+}
+
+
+
+.titleRowList li:nth-child(2),
+.titleRowList li:nth-child(3),
+.titleRowList li:nth-child(4) {
+       border-right: 2px solid rgb(202, 202, 255);
+       border-bottom: 2px solid rgb(202, 202, 255);
+
+}
+
+
+
+.titleRowElem {
+       border-right: 2px solid rgb(202, 202, 255);
+       border-left: 2px solid rgb(202, 202, 255);
+       border-bottom: 2px solid rgb(202, 202, 255);
+}
+
+.titleRowListForFour {
+       width: 100%;
+       list-style: none;
+       display: flex;
+       margin: 0;
+       padding: 0;
+       text-align: center;
+       color: blue;
+}
+
+.titleRowListForFour li:nth-child(1),
+.titleRowListForFour li:nth-child(2),
+.titleRowListForFour li:nth-child(3) {
+       border-left: 2px solid rgb(202, 202, 255);
+       border-bottom: 2px solid rgb(202, 202, 255);
+}
+
+.titleRowListForFour li:nth-child(3) {
+       border-right: 2px solid rgb(202, 202, 255);
+}
+
+.titleRowListForFour li:nth-child(1) {
+       width: 40%;
+}
+
+.titleRowListForFour li:nth-child(2) {
+       width: 10%;
+}
+
+.titleRowListForFour li:nth-child(3) {
+       width: 100%;
+}
+
+.fieldForNotice {    
+       display: flex;
+       justify-content: center;
+}
+
+.elemForField {
+       width: 90%;
+       height: 100%;
+}
+
+.countOfStudents {
+       width: 40%;
+       text-align: center;
+       border: none;
+}
