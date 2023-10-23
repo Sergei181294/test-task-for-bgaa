@@ -1,0 +1,15 @@
+.arrowIcon {
+       width: 20px;
+       height: 20px;
+}
+
+.selectWrapper {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 20px;
+}
+
+.selectWithButton {
+       width: 100px;
+}

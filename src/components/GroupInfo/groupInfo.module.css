@@ -1,0 +1,26 @@
+.groupInfoWrapper {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       border-bottom: 3px solid rgb(167, 172, 238);
+       padding-bottom: 20px;
+}
+
+
+.blockInfo {
+       display: flex;
+       justify-content: space-between;
+       width: 45%;
+}
+
+.title {
+       margin: 0;
+       font-family: serif;
+       color: rgb(79, 79, 235);
+}
+
+.info {
+       margin: 0;
+       font-family: serif;
+       color: rgb(79, 79, 235);
+}
